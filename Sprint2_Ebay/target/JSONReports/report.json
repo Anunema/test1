@@ -1,0 +1,356 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-10-14T04:40:57.839Z",
+        "line": 2,
+        "name": "To validate user is bale to login or not",
+        "description": "",
+        "id": "feature-to-test-ebay-test-functionality;to-validate-user-is-bale-to-login-or-not",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8935199100,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Browser should be open",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.browser_should_be_open()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5007398900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user should be on ebay home page",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.user_should_be_on_ebay_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2687186900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user navigate to login page",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.user_navigate_to_login_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5276674600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters the valid email address",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.user_enters_the_valid_email_address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2193102200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user enters the valid password",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.user_enters_the_valid_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87600700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on login button",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.user_clicks_on_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30001602800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "login must be successful",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.login_must_be_successful()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:41:52.183Z",
+        "line": 12,
+        "name": "To validate that the user is able to navigate to purchase history page",
+        "description": "",
+        "id": "feature-to-test-ebay-test-functionality;to-validate-that-the-user-is-able-to-navigate-to-purchase-history-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 997200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User should be on ebay homepage",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.user_should_be_on_ebay_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2428893500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user is able to see my ebay option",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.user_is_able_to_see_my_ebay_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1994500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user should click on purchase history option",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.user_should_click_on_purchase_history_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2005568400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user should be navigated to purchase history page",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.user_should_be_navigated_to_purchase_history_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:41:56.638Z",
+        "line": 18,
+        "name": "To validate the search option in purchase history orders is enabled.",
+        "description": "",
+        "id": "feature-to-test-ebay-test-functionality;to-validate-the-search-option-in-purchase-history-orders-is-enabled.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 990000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user should be on purchase history page",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.user_should_be_on_purchase_history_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 998100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user is able to see search option in orders",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.user_is_able_to_see_search_option_in_orders()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1983770300,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "user enter the product name in search box",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.user_enter_the_product_name_in_search_box()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2118032200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "hits the search button",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.hits_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2010200700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "user is able to see the search result",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.user_is_able_to_see_the_search_result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:42:02.769Z",
+        "line": 25,
+        "name": "To validate user is able to navigate to cancel detail page after clicking",
+        "description": "on See cancel details",
+        "id": "feature-to-test-ebay-test-functionality;to-validate-user-is-able-to-navigate-to-cancel-detail-page-after-clicking",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 996500,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User should be on order details",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.user_should_be_on_order_details()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3987100,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "See cancel details option is visible",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.see_cancel_details_option_is_visible()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7666060400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User click on See cancel details option",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.user_click_on_see_cancel_details_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1003400,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User is redirected to cancel details page",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.user_is_redirected_to_cancel_details_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T04:42:10.452Z",
+        "line": 33,
+        "name": "To validate user is able to navigate to the seller other items page after",
+        "description": "clicking on View seller\u0027s other option",
+        "id": "feature-to-test-ebay-test-functionality;to-validate-user-is-able-to-navigate-to-the-seller-other-items-page-after",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1000400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "User Should be on Cancel items",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.user_should_be_on_cancel_items()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 994400,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User is able to see views seller\u0027s other item option",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.user_is_able_to_see_views_seller_s_other_item_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8083585500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "User click on View seller\u0027s other item option",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.user_click_on_view_seller_s_other_item_option()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1994500,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "User is redirected to other item option page",
+            "match": {
+              "location": "Sprint2_ebay.StepDefination.user_is_redirected_to_other_item_option_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "feature to test ebay test functionality",
+    "description": "",
+    "id": "feature-to-test-ebay-test-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Main.feature",
+    "tags": []
+  }
+]

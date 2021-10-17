@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="81.037">
+    <testcase classname="feature to test ebay test functionality" name="To validate user is bale to login or not" time="54.322">
+        <system-out><![CDATA[Given Browser should be open................................................passed
+And user should be on ebay home page........................................passed
+And user navigate to login page.............................................passed
+When user enters the valid email address....................................passed
+And user enters the valid password..........................................passed
+When user clicks on login button............................................passed
+Then login must be successful...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="feature to test ebay test functionality" name="To validate that the user is able to navigate to purchase history page" time="4.443">
+        <system-out><![CDATA[Given User should be on ebay homepage.......................................passed
+And user is able to see my ebay option......................................passed
+When user should click on purchase history option...........................passed
+Then user should be navigated to purchase history page......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="feature to test ebay test functionality" name="To validate the search option in purchase history orders is enabled." time="6.123">
+        <system-out><![CDATA[Given user should be on purchase history page...............................passed
+And user is able to see search option in orders.............................passed
+When user enter the product name in search box..............................passed
+And hits the search button..................................................passed
+Then user is able to see the search result..................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="feature to test ebay test functionality" name="To validate user is able to navigate to cancel detail page after clicking" time="7.678">
+        <system-out><![CDATA[Given User should be on order details.......................................passed
+And See cancel details option is visible....................................passed
+When User click on See cancel details option................................passed
+Then User is redirected to cancel details page..............................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="feature to test ebay test functionality" name="To validate user is able to navigate to the seller other items page after" time="8.089">
+        <system-out><![CDATA[Given User Should be on Cancel items........................................passed
+And User is able to see views seller's other item option....................passed
+When User click on View seller's other item option..........................passed
+Then User is redirected to other item option page...........................passed
+]]></system-out>
+    </testcase>
+</testsuite>
